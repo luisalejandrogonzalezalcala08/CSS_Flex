@@ -150,4 +150,26 @@ nav a:hover{
     font-size: medium;
 }
 
+.hero{
+    display: flex;
+    border: 1px solid #bec1bb;
+    width: 75%;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 250%;
+}
+
+.hero img{
+    width:40%;
+    
+}
+
 
