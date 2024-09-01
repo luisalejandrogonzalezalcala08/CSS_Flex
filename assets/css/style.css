@@ -1,0 +1,153 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.flex-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+    
+.caja_usuario {
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    margin: 0%;
+    padding:3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.caja_usuario img{
+    padding: 1%;
+
+}
+
+.caja_usuario a{
+    color: #1b1f21;
+}
+
+.caja_contacto {
+    border-top: 1px solid #bec1bb;
+    padding: 3.5%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.caja_contacto a {
+    color: #1b1f21;
+}
+.sub-caja-usuario {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    width: 70%;
+}
+
+.sub-caja-usuario p{
+    font-size: x-small;
+}
+
+
+
+.sub-caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5px;
+}
+
+
+
+.sub-caja p{
+    font-size:small;
+    color: #828485;
+    
+}
+
+.sub-caja h5{
+    font-size: medium;
+}
+
+.iconos{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+
+}
+
+
+.button {
+display: flex;
+background-color: #A491D2;
+margin: 20%;
+margin-top: 15%;
+margin-bottom: 15%;
+padding-top: 4%;
+padding-bottom: 4%;
+justify-content: center;
+
+}
+.button a{
+    color: white;
+}
+
+.box{
+    display: flex;
+    border: 1px solid #bec1bb;
+    width: 25%;
+    min-height: 100vh;
+    
+    
+}
+
+
+.box img {
+    border-radius: 360%;
+    width: 15%
+    
+}
+
+.box a p{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.box .nombre {
+    display: flex;
+
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+nav li{
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+}
+
+nav a{
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: #E8EBE4;
+
+}
